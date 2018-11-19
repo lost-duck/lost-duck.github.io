@@ -1,0 +1,110 @@
+#-------------------------------
+# General Site Settings
+
+title: LOST DUCK
+description: BEER
+email: lostduck@gmail.com
+
+# NOTE: The Logo and Background image are defined in the all.sass document.
+
+menu:
+- {name: Beers, url: '#about-me'}
+- {name: Shop, url: '#work'}
+- {name: Blog, url: '#clients'}
+- {name: Contact, url: '#contact'}
+
+#-------------------------------
+# SEO Section
+
+# NOTE: Providing SEO information will make this website more searchable on the internet.
+
+seo:
+  description: 'Provide a description for your website to make it visible to search engines.'
+  rel-author: 'https://plus.google.com/u/0/+DevTipsForDesigners/'
+  rel-publisher: 'https://plus.google.com/u/0/+DevTipsForDesigners/'
+
+#-------------------------------
+# Google Analytics Section
+
+# Analytics helps you understand who visits your website.
+# Learn more at: http://support.google.com/analytics/answer/1008065
+
+# NOTE: If you want to use Google Analytics for basic web tracking: Just uncomment and enter your UA-Code here.
+
+#google-analytics-ua: UA-XXXXXX-X
+
+#-------------------------------
+# About Section
+
+# NOTE: The avatar is defined in the all.sass document.
+
+blurb: >
+  **Lost Duck** is an imaginary brewery making the tastiest beers in the universe.
+  Taking insipration from [Sierra Nevada](https://sierranevada.com/){:target="_blank"},
+  we make intensely hoppy west coast beers and have won many awards on [Ratebeer](https://www.ratebeer.com/){:target="_blank"}
+
+
+skills:
+- {name: Flavour, value: '10'}
+- {name: Aroma, value: '10'}
+- {name: Bitterness, value: '10'}
+- {name: Sweetness, value: '10'}
+- {name: Balance, value: '10'}
+- {name: Colour, value: '10'}
+- {name: Python skills, value: '9'}
+- {name: Friendliness, value: '10'}
+
+#-------------------------------
+# Work Section
+
+projects:
+- {name: BREWERY, folder: 'proj-1', file: 'work/proj-1.html'}
+- {name: STAFF, folder: 'proj-2', file: 'work/proj-2.html'}
+- {name: RECIPES, folder: 'proj-3', file: 'work/proj-3.html'}
+- {name: COLLABORATIONS, folder: 'proj-4', file: 'work/proj-4.html'}
+- {name: AWARDS, folder: 'proj-5', file: 'work/proj-5.html'}
+- {name: ARTWORK, folder: 'proj-6', file: 'work/proj-6.html'}
+- {name: BLOG, folder: 'proj-7', file: 'work/proj-7.html'}
+- {name: TAPROOM, folder: 'proj-8', file: 'work/proj-8.html'}
+
+
+
+#-------------------------------
+# Clients Section
+
+
+clients:
+- {avatar: 'face-aaroni.jpg',
+  name: 'Kurt Cobain',
+  title: 'Nirvana, Deceased.',
+  quote: '<p><strong>Mindblowing flavours!</strong> The only beer I can drink.</p>',
+  logo: 'logo1.png'}
+- {avatar: 'face-atariboy.jpg',
+  name: 'Sam Duckitt',
+  title: 'Beer Drinker, Leeds.',
+  quote: '<p><strong>My favourite imaginary brewery.</strong> Best beers in the universe.</p>',
+  logo: 'logo2.png'}
+- {avatar: 'face-jackiesaik.jpg',
+  name: 'Annie Reid',
+  title: 'Nurse, NHS.',
+  quote: '<p><strong>Yea, I guess hes good at computers or something,</strong> but let me ask you this: If a cat always lands on its feet, and buttered bread always lands butter side down, what would happen if you tied buttered bread on top of a cat?</p>',
+  logo: 'logo3.png'}
+- {avatar: 'face-teleject.jpg',
+  name: 'Ken Grossman',
+  title: 'CEO, Sierra Nevada.',
+  quote: '<p><strong>Working with Lost Duck</strong> was the highlight of my career, for reals.</p>',
+  logo: 'logo4.png'}
+
+
+#-------------------------------
+# Contact Section
+
+social:
+- {icon: 'twitter', link: 'https://untappd.com/'}
+- {icon: 'dribbble', link: 'https://untappd.com/'}
+- {icon: 'behance', link: 'https://untappd.com/'}
+- {icon: 'youtube', link: 'https://untappd.com/'}
+- {icon: 'linkedin', link: 'https://untappd.com/'}
+
+
+# social network icons available: 'twitter' / 'facebook' / 'github' / 'pinterest' 'google-plus' / 'linkedin' / 'youtube' / 'instagram' / 'dribbble' / 'behance' / 'soundcloud' / 'vine'
